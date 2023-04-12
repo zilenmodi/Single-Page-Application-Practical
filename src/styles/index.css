@@ -1,0 +1,341 @@
+body {
+    background-color: #f6f8f8;
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #242929;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.container {
+    width: 88vw;
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+nav .nav-items-text {
+    text-decoration: none;
+    color: #3e4242;
+}
+
+.row {
+    width: 100%;
+    padding: 24px 0px;
+}
+
+a.brand-logo {
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-flex;
+    height: 100%;
+    transition: all 0.2s ease;
+    color: #242929;
+    line-height: 1;
+    align-items: center;
+    padding: 0;
+    font-weight: bold;
+    margin-right: 6rem;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.nav-items-text {
+    font-size: 1rem;
+}
+
+.display-height {
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+}
+
+
+.display-height-work {
+    font-size: 5.5rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+}
+
+.header-subtitle1 {
+    font-size: 2rem;
+    color: #3e4242;
+}
+
+.header-subtitle2 {
+    font-size: 1.2rem;
+    color: #3e4242;
+}
+
+.header-subtitle2 a,
+.blog-header-subtitle a,
+.header-subtitle1-about a {
+    color: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(#159df8 0%, #159df8 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 0.1em;
+    transition: background-size 0.2s ease;
+}
+
+.header-subtitle2 a:hover,
+.workselect-subtitle1 a:hover,
+.footer-text a:hover,
+.blog-header-subtitle a:hover,
+.header-subtitle1-about a:hover {
+    color: #242929;
+    background-size: 100% 88%;
+    background-image: linear-gradient(rgba(21, 157, 248, 0.7) 0%, rgba(21, 157, 248, 0.7) 100%);
+}
+
+.header-horizontal {
+    border-top: 4px solid #242929;
+    opacity: 1;
+    margin-top: 85px;
+}
+
+.header-horizontal-second {
+    border-top: 4px solid #242929;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+.workselect-subtitle1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.workselect-subtitle1 a {
+    font-size: 0.9rem;
+    color: #242929;
+    text-decoration: none;
+    background-image: linear-gradient(#159df8 0%, #159df8 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 0.1em;
+    transition: background-size 0.2s ease;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.workselect-subtitle1 span {
+    font-size: 1.1rem;
+    color: #585e5e;
+    font-weight: 300;
+    display: inline-block;
+    padding-top: 0.6rem;
+}
+
+.cs-thumb {
+    width: 95%;
+    height: 340px;
+}
+
+.cs-thumb-postselect {
+    width: 95%;
+    height: 240px;
+}
+
+.cs-thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+
+.cs-thumb-postselect img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.workselect-project-status {
+    font-size: 0.7em;
+    line-height: 1;
+    color: #585e5e;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.workselect-card-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #242929;
+    line-height: 1.3;
+}
+
+.workselect-card-text {
+    font-size: 1.5rem;
+    color: #3e4242;
+}
+
+.position-sticky-titles {
+    position: sticky;
+    top: 8rem;
+}
+
+
+.postselect-project-status {
+    font-size: 0.6em;
+    line-height: 1;
+    color: #585e5e;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.postselect-card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #242929;
+    line-height: 1.3;
+}
+
+.postselect-card-text {
+    font-size: 1.2rem;
+    color: #3e4242;
+}
+
+.homepage-footer {
+    background-color: #383E3E;
+    color: #ccc !important;
+    padding: 4rem 0;
+}
+
+.footer-text {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.45;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #ccc !important;
+    background-image: linear-gradient(#159df8 0%, #159df8 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 0.1em;
+    transition: background-size 0.2s ease;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.portfolio-item {
+    height: 100%;
+    padding: 14px;
+    transition: all 0.4s ease;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    margin-bottom: 7px;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.portitem-title {
+    padding: 0.5rem;
+    color: #3e4242;
+}
+
+.portfolio-item:hover .portfolio-image {
+    filter: grayscale(0);
+}
+
+
+.portfolio-item:hover {
+    background-color: #fcfdfd;
+    box-shadow: 0 0.2rem 0.65rem rgb(53 63 74 / 10%);
+}
+
+.about-header-image {
+    width: 200px;
+    height: 200px;
+}
+
+.about-header-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-subtitle1-about {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.45;
+    color: #3e4242;
+    margin-bottom: 1.2rem !important;
+}
+
+.aboutpage-menu a {
+    color: #848a8a;
+    font-size: 0.95rem;
+    text-decoration: none;
+    float: left;
+}
+
+.aboutpage-menu {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.aboutpage-menu li {
+    list-style-type: none;
+    margin-bottom: 0.4rem;
+}
+
+.case-study-feature-item {
+    margin: 10px 0;
+    transition: all 0.4s;
+}
+
+.case-study-feature-item:hover {
+    background-color: #fff !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .display-height,
+    .display-height-work {
+        font-size: 3.2rem;
+    }
+
+    .aboutpage-menu {
+        display: none;
+    }
+
+    .position-sticky-titles {
+        position: unset;
+    }
+
+    .cs-thumb {
+        height: 250px;
+    }
+
+    .container {
+        width: 92vw;
+    }
+
+}
